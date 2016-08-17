@@ -5,6 +5,9 @@
 # Version 0.1
 
 apt-get -y install curl && cron
+
+
+
 mkdir /etc/ariane_agent/
 cd /etc/ariane_agent/
 useradd ariane_agent -r -d /etc/ariane_agent -s /bin/false
